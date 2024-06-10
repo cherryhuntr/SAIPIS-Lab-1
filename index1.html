@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Таблица</title>
+ <style>
+   table {
+       width:100%;
+       height:100%;
+       border-collapse: collapse;
+   }
+  
+   
+   td, th {
+       border: 1px solid black;
+       padding: 5px;
+       text-align: center;
+   }
+ .spisok2 {
+    text-align: left;
+    list-style-type: none; 
+   }
+   .spisok3 {
+    text-align: left;
+   }
+  
+   .bold_cell{
+    border: 3px solid #000;
+}
+   tr {
+    background-color: #fcff2e;
+   }
+   .small-image {
+    width: 250px; 
+    height: 200px; 
+  }
+  .tiny-image {
+    width: 150px; 
+    height: auto; 
+  }
+ </style>
+</head>
+<body>
+   <table>
+    <h2 bgcolor = "teal">Таблица информации об Италиянской кухне</h2>
+       <tr>
+        <td rowspan="3" bgcolor = "red"><h3>Меню</h3>
+          <ol type = "I" class="spisok3">
+              <li>
+                  Завтрак
+                  <ol type = "A">
+                      <li>
+                        <h4>Первый стол</h4>
+                          <ol type = "1">
+                              <li>Первое блюдо</li>
+                              <li>Второе блюдо</li>
+                          </ol>
+                      </li>
+                      <li>
+                        <h4>Второй  стол</h4>
+                          <ol type = "a">
+                              <li>Первое блюдо</li>
+                              <li>Второе блюдо</li>
+                          </ol>
+                      </li>
+                  </ol>
+              </li>
+              <li>
+                  Обед
+                  <ol type = "A">
+                      <li>
+                        <h4>Первый стол</h4>
+                          <ol type = "1">
+                              <li>Первое блюдо</li>
+                              <li>Второе блюдо</li>
+                              <li>Третье блюдо</li>
+                          </ol>
+                      </li>
+                      <li>
+                        <h4>Второй стол</h4>
+                          <ul>
+                              Первое блюдо
+                          </ul>
+                          <ul>
+                              Второе блюдо
+                          </ul>
+                      </li>
+                  </ol>
+              </li>
+          </ol></td>
+           <td><span style="color:hwb(284 1% 33%); text-decoration: underline;"><h3>Кухня Италии — знаменитая визитная карточка солнечного средиземноморья. </h3></span></td>
+           <td rowspan="4">
+            <h3>Самые популярные блюда</h3>
+            <div style="display: flex;">
+              <ol class="spisok1">
+                <li>
+                  <h4>Рим</h4>
+                  <ol>
+                    <li>Спагетти Карбонара</li>
+                    <li>Равиоли</li>
+                    <li>Джелато</li>
+                  </ol>
+                </li>
+                <li>
+                  <h4>Милан</h4>
+                  <ul>
+                    <li>Ризотто</li>
+                    <li>Отбивная по-милански</li>
+                    <li>Риболлита</li>
+                  </ul>
+                </li>
+              </ol>
+              <img src="https://content.skyscnr.com/m/32576cb8d8451112/original/eyeem_103792371-jpg.jpg?resize=1800px:1800px&quality=100" alt="Макароны" class="small-image">
+            </div>
+          </td>
+           <th><span style="color:hsl(183, 95%, 59%); font-style: italic;">В Италии ни один прием пищи не обходится без сыра и вина</span></th>
+           <td rowspan="3"><br><img src="https://thumbs.dreamstime.com/z/%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D1%81-%D0%B8%D0%BD%D0%B3%D1%80%D0%B5%D0%B4%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8-%D0%BD%D0%B0-%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-162431749.jpg" alt="Пицца" class="tiny-image"></td>
+           <td class = "bold_cell"><br><img src="https://content.skyscnr.com/m/1c483f2e28072f00/original/GettyImages-529003153.jpg?resize=1800px:1800px&quality=100" alt="Пельмени" class="small-image"></td>
+       </tr>
+       <tr>
+           <td><h3>Флоренция</h3>
+            <ul class="spisok2">
+                <li>- Брускетта</li>
+                <li>- Флорентийский стейк (бифштекс)</li>
+            </ul></td>
+           <td><span style="font-stretch: condensed; color: rgb(100, 50, 200);">Фразу «я люблю пиццу» можно использовать как сильный аргумент, когда на паспортном контроле вас спросят про цель поездки в Италию. Но вкусных блюд в этой стране хватит на десятки путешествий. </span></td>
+           <td rowspan = "2" class = "bold_cell"><div style="display: flex;"><span style="font-size: 20px; color: hsl(108, 87%, 47%); font-stretch: wider;">У болоньезе получилось стать популярнее Болоньи: спагетти с этим томатно-мясным соусом мелькает в меню кафе и ресторанов далеко за пределами Италии. Но в самой кулинарной столице болоньезе называют «рагу» и едят не со спагетти, а с яичной пастой тальятелле, которую придумали здесь же. Говорят, это потому что ее плоская форма и шероховатая структура лучше цепляют соус — впрочем, вы можете придумать другую комбинацию.</span>
+              <ol class="spisok1"><h3>Лучшие рестораны Италии</h3>
+              <li>
+                <h4>Турин</h4>
+                <ol>
+                  <li>Santa Polenta</li>
+                  <li>Tagliabrodo </li>
+                  <li>Salumeria Da Aldo</li>
+                </ol>
+              </li>
+              <li>
+                <h4>Лацио</h4>
+                <ul>
+                  <li>Osteria Mastro Titta </li>
+                  <li>Osteria n. 1</li>
+                </ul>
+              </li>
+         </ol></div></td>
+       </tr>
+       <tr>
+           <td><span style="color:#ff00ff; font-style: italic; text-decoration: underline;">Казалось бы, стейки в любой стране мира готовят одинаково и удивить здесь нечем. Но в Италии к вопросу подходят серьезно: для флорентийского бифштекса используют только мясо молодых бычков, которые пасутся в долине Кьянти. Там же выращивают виноград для красного вина к блюду. Стейк не маринуют, а мраморных прожилок жира в нем почти нет, но мясо все равно получается очень нежным. Впрочем, подойдет оно не всем: готовят всегда с кровью, а размер порции может доходить до 1,5 килограммов.</span></td>
+           <td><span style="font-family: Impact, fantasy; color: blue;">До сих пор точно не выяснили, где впервые приготовили лазанью: в шумном Неаполе или в ученой Болонье. В каждом городе был свой набор ингредиентов, но их объединяло главное — тонкие листы пасты, выложенные слоями. Рецепт с рикоттой и фрикадельками из Кампании считают более старинным, а блюдо с пармезаном и соусом болоньезе — более популярным. Это дает превосходный повод отправиться в оба региона и решить, что вам по вкусу.</span></td>
+      
+       </tr>
+       <tr>
+           <td colspan="2"><span style="color:hsl(236, 100%, 50%); font-style: italic">Итальянская кухня — самая популярная в мире. </span></td>
+           <td colspan="3"><span style="font-size: 20px; font-weight: bold;">До сих пор точно не выяснили, где впервые приготовили лазанью: в шумном Неаполе или в ученой Болонье. В каждом городе был свой набор ингредиентов, но их объединяло главное — тонкие листы пасты, выложенные слоями. Рецепт с рикоттой и фрикадельками из Кампании считают более старинным, а блюдо с пармезаном и соусом болоньезе — более популярным. Это дает превосходный повод отправиться в оба региона и решить, что вам по вкусу.</span></td>
+       </tr>
+   </table>
+</body>
+</html>
